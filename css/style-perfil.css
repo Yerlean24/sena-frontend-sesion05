@@ -1,0 +1,58 @@
+@import url(tokens-perfil.css);
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background: var(--color-principal);
+  font-family: var(--fuente);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.tarjeta {
+  background: var(--color-tarjeta);
+  width: 300px;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  border: var(--borde-tarjeta);
+}
+.foto {
+  width: 100%;
+  border-radius: 50%;
+  border: var(--borde-foto);
+  background-color: var(--color-fondo);
+}
+h2 {
+  margin: 1rem 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cargo {
+  color: gray;
+  font-size: 0.9rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+button {
+  -webkit-background-clip: button;
+  background-clip: button;
+  -webkit-text-fill-color: black;
+  border: var(--borde-boton);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 px 10px 20px rgba(0, 0, 0, 0.3);
+}
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

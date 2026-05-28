@@ -5,115 +5,69 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   color: black;
-
   background-image: url("../images/2208_w023_n003_2837b_p1_2837.png");
-
   background-size: cover;
-
   background-position: center;
-
   background-attachment: fixed;
-
   min-height: 100vh;
 }
-
 /* ---------------- HEADER ---------------- */
-
 header {
   background-color: #ba44ff;
-
   padding: 1rem;
-
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .contenedor {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
 }
-
 .contenedor ul {
   display: flex;
-
   list-style: none;
-
   gap: 2rem;
-
   padding: 0 2rem;
 }
-
 .contenedor a {
   text-decoration: none;
-
   color: black;
-
   font-weight: 600;
-
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .contenedor li:hover {
   cursor: pointer;
-
   transform: scale(1.1);
-
   transition: 0.3s;
 }
-
 /* ---------------- TARJETAS ---------------- */
-
 .contenedor2 {
   display: flex;
-
   flex-wrap: wrap;
-
   justify-content: center;
-
   align-items: center;
-
   gap: 40px;
-
   padding: 2rem;
 }
-
 .caja {
   padding: 1rem;
-
   background: radial-gradient(circle, #ffffff, #d996ff);
-
   width: 20rem;
-
   min-height: 29rem;
-
   border-radius: 1rem;
-
   box-shadow: #383838 5px 5px 5px;
-
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
-
   text-align: center;
-
   gap: 10px;
-
   transition: 0.3s;
 }
-
 .caja:hover {
   transform: scale(1.05);
 }
-
 #c1,
 #c2,
 #c3,
@@ -122,69 +76,46 @@ header {
 #c6 {
   font-weight: 700;
 }
-
 /* ---------------- IMAGENES ---------------- */
-
 .caja img {
   width: 100%;
-
   height: 15rem;
-
   object-fit: contain;
-
   padding: 1rem;
 }
-
 /* ---------------- BOTONES ---------------- */
-
 button {
   width: 8rem;
-
   height: 2rem;
-
   border-radius: 1rem;
-
   border: 1px solid lightgray;
-
   cursor: pointer;
-
   transition: 0.3s;
 }
-
 button:hover {
   transform: scale(1.05);
-
   background-color: lightgrey;
 }
-
 /* ---------------- RESPONSIVE ---------------- */
-
 @media (max-width: 768px) {
   .contenedor {
     flex-direction: column;
-
     gap: 20px;
-
     text-align: center;
   }
 
   .contenedor ul {
     flex-direction: column;
-
     gap: 15px;
-
     padding: 0;
   }
 
   .contenedor2 {
     flex-direction: column;
-
     padding: 20px;
   }
-
   .caja {
     width: 90%;
-
     max-width: 320px;
   }
 }

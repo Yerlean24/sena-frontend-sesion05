@@ -1,0 +1,11 @@
+:root{
+    --color-fondo:lightgrey;
+    --color-boton:white;
+    --color-principal:linear-gradient(to right, #ffffff 0%, #976ff3 100%);
+    --color-texto:black;
+    --fuente:"roboto",sans-serif;
+    --borde-tarjeta: 1px solid black;
+    --borde-foto: 1px solid black;
+    --color-tarjeta: beige;
+    --borde-boton: 1px solid black;
+}
